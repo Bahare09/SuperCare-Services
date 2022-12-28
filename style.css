@@ -8,6 +8,7 @@ header {
   justify-content: space-between;
 }
 
+
 /*logo style*/
 .logo {
   margin: 10px 10px 10px 10px;
@@ -30,6 +31,27 @@ nav {
 
 .nav-list :hover {
   color: #c05326;
+}
+
+.orderForm {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+
+
+}
+
+
+.input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background color: light blue;
+}
+
+.input:focus {
+  background: red;
+  border: 10px solid green;
+
 }
 footer {
   background-color: rgb(240, 235, 245);
