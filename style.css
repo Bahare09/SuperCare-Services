@@ -36,16 +36,18 @@ nav {
 .orderForm {
   display: flex;
   flex-direction: column;
-  width: 500px;
-
-
+  width: 60%;
+  margin: auto;
+  background: url('./img/kelly-sikkema-Z4GKcFAGck4-unsplash.jpg');
+  background-size: cover;
 }
 
 
-.input {
+input {
   margin-top: 10px;
   margin-bottom: 10px;
-  background color: light blue;
+  background: rgb(168, 168, 221);
+  height: 25px
 }
 
 .input:focus {
