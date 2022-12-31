@@ -8,6 +8,7 @@ header {
   justify-content: space-between;
 }
 
+
 /*logo style*/
 .logo {
   margin: 10px 10px 10px 10px;
@@ -30,6 +31,34 @@ nav {
 
 .nav-list :hover {
   color: #c05326;
+}
+
+.orderForm {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: auto;
+  background: url('./img/kelly-sikkema-Z4GKcFAGck4-unsplash.jpg');
+  background-size: cover;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+
+input,select {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: rgb(168, 168, 221);
+  height: 25px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input:focus {
+  background: red;
+  border: 10px solid green;
+
 }
 footer {
   background-color: rgb(240, 235, 245);
