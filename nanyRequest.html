@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>SuperCare Services</title>
+    <link rel="stylesheet" href="style2.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="img/logo.png" alt="logo" />
+      </div>
+      <div class="header-text">
+        <h1>SuperCare Services</h1>
+        <h3>Nannies Next Door</h3>
+      </div>
+      <nav>
+        <ul class="nav-list">
+          <li class="nav-items">
+            <a class="nav-links" href="index.html">Home</a>
+          </li>
+          <li class="nav-items">
+            <a class="nav-links" href="nanyRequest.html">Nanny Request</a>
+          </li>
+          <li class="nav-items"><a class="nav-links" href="#">Fees</a></li>
+          <li class="nav-items">
+            <a class="nav-links" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="nany">
+        <img src="img/nanyRequest.jpg" alt="nany-pic" width="700px" />
+      </div>
+      <div class="form-text">
+        <h1>Register your interest below to start the process</h1>
+
+        <p>
+          The happiness and safety of your child is at the core of what we do.
+        </p>
+
+        <p>
+          The Nanny Circle provide clients a bespoke and personalised service.
+          We recruit high calibre nannies who are passionate about child
+          development and provide the very best pastoral and educational care.
+          We specialise in permanent and temporary placement nanny placement.
+        </p>
+
+        <p>
+          We personally interview every candidate so we can find the right nanny
+          for your family.
+        </p>
+
+        <p>
+          Our approach is based upon the educational principle that every child
+          is unique. We believe every family is too, there is no ‘one size fits
+          all’ and we work hard on your behalf to find a nanny to suit your
+          family dynamic and the needs of your children.
+        </p>
+
+        <p>
+          We are founded by early years educators who have hands on experience
+          in top early years settings and schools, so we understand quality
+          childcare.
+        </p>
+
+        <form>
+          <fieldset class="name-container">
+            <legend>Full Name*</legend>
+            <input
+              id="name"
+              type="text"
+              name="name"
+              placeholder="John Smith"
+              required
+            />
+          </fieldset>
+
+          <fieldset class="email-container">
+            <legend>Email*</legend>
+            <input
+              id="email"
+              type="email"
+              name="email"
+              placeholder="j@yahoo.com "
+              required
+            />
+          </fieldset>
+
+          <fieldset class="contact-container">
+            <legend>How would you like us to get in touch:*</legend>
+            <br />
+            <input type="radio" id="AM" name="contact" value="AM" checked />
+            <label for="AM">Phone call AM</label>
+            <input type="radio" id="PM" name="contact" value="PM" />
+            <label for="PM">Phone call PM</label>
+            <input type="radio" id="email" name="contact" value="email" />
+            <label for="email">Email</label>
+          </fieldset>
+
+          <fieldset class="size-container">
+            <legend>Please choose size*</legend>
+            <select id="size-tshirt" name="size-tshirt" required>
+              <option>XS</option>
+              <option>S</option>
+              <option>M</option>
+              <option>L</option>
+              <option>XL</option>
+              <option>XXL</option>
+            </select>
+          </fieldset>
+
+          <fieldset class="delivery-container">
+            <legend>Please choose delivery date*</legend>
+
+            <input
+              type="date"
+              id="delivery-date"
+              name="delivery-date"
+              min="2022-11-07"
+              max="2022-12-04"
+              required
+            />
+          </fieldset>
+
+          <div class="submit-container">
+            <button type="submit">Place your order</button>
+          </div>
+        </form>
+      </div>
+    </main>
+    <footer>
+      <div class="contact">
+        <h3>Contact us:</h3>
+
+        <p>Phon Number: +44 7809879865</p>
+
+        <a href="mailto:your@address.com"
+          >Email: SuperCare-services@gmail.com</a
+        >
+      </div>
+      <div class="follow">
+        <h3>Follow us:</h3>
+
+        <a href="https://www.instagram.com/" class="links-socialMedia"
+          ><img
+            src="/img/Instagram.png"
+            class="images_socialMedia"
+            alt="InstagramIcon"
+        /></a>
+
+        <a href="https://en-gb.facebook.com/" class="links-socialMedia"
+          ><img
+            src="/img/Facebook.png"
+            class="images_socialMedia"
+            alt="FacebookIcon"
+        /></a>
+      </div>
+    </footer>
+  </body>
+</html>
