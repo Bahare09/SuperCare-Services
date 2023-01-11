@@ -45,7 +45,7 @@ nav {
 }
 
 
-input,select {
+input,select,button {
   margin-top: 10px;
   margin-bottom: 10px;
   background: rgb(168, 168, 221);
