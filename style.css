@@ -3,7 +3,7 @@ body {
 }
 
 header {
-  background-color: rgb(240, 235, 245);
+  background-color: rgb(161, 115, 207);
   display: flex;
   justify-content: space-between;
 }
@@ -11,7 +11,7 @@ header {
 
 /*logo style*/
 .logo {
-  margin: 10px 10px 10px 10px;
+  margin: 20px 20px 20px 20px;
   width: 200px;
 }
 
@@ -45,7 +45,7 @@ nav {
 }
 
 
-input,select,button {
+input,select,button{
   margin-top: 10px;
   margin-bottom: 10px;
   background: rgb(168, 168, 221);
