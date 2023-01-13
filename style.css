@@ -3,20 +3,33 @@ body {
 }
 
 header {
-  background-color: rgb(240, 235, 245);
   display: flex;
   justify-content: space-between;
 }
 
 /*logo style*/
 .logo {
-  margin: 10px 10px 10px 10px;
-  width: 200px;
+  margin: 10px 10px 0px 50px;
+  width: 300px;
+}
+
+.header-text h1 {
+  font-size: 400%;
+  margin: 20px 10px 0px 10px;
+}
+
+.header-text h3 {
+  font-size: 200%;
+}
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 /* Navigation style */
 nav {
-  margin: 20px;
+  margin: 35px 20px 20px 20px;
 }
 .nav-list {
   display: flex;
@@ -25,47 +38,94 @@ nav {
 }
 
 .nav-links {
-  color: #1f1d1d;
+  font-size: 150%;
+  font-weight: 500;
+  color: rgb(71, 41, 97);
+  font-style: italic;
 }
 
 .nav-list :hover {
   color: #c05326;
 }
-footer {
-  background-color: rgb(240, 235, 245);
+  
+main {
+  background-color: rgb(243, 240, 247);
+}
+.aboutMe {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  
 }
-main {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  margin: 20px;
-  gap: 20px;
-}
-.review {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-style: italic;
-}
-.images_socialMedia {
-  width: 60px;
-  height: 50px;
-}
-.contact,
-.follow {
-  margin: 10px;
+.aboutMe button {
+  background-color: #3f083f;
+  border: none;
+  padding: 0.8rem 3rem;
+  border-radius: 5px;
+  margin: 70px 60px 0px 50px;
+  box-shadow: 0 4px 8px 0 rgba(75, 8, 8, 0.2);
+
 }
 
-h1,h3,nav,footer{
+.aboutMe button:hover {
+  background-color: rgb(148, 138, 147);
+}
+
+.aboutMe button a {
+  text-decoration: none;
+  color: rgb(223, 218, 212);
+  font-size: large;
+  font-style: italic;
+}
+.aboutMe p {
+  margin: 30px 80px 130px 80px;
+  font-size: 30px;
+  text-align: center;
+}
+.aboutMe h1 {
+  margin: 110px 50px 20px 60px;
+}
+.nanny-cards{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 50px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  }
+.card p{
+  margin:10px;
+}
+
+
+p {
+  font-size: large;
+  text-align: justify;
+  font-style: italic;
+}
+
+h1,h2,
+h3
+{
   color: rgb(71, 41, 97);
   font-style: italic;
 }
-p{
-  font-size: large;
-  text-align: justify; 
+
+footer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.images_socialMedia {
+  width: 60px;
+  height: 60px;
+  margin: 0px;
   
-  font-style: italic;
+}
+.contact
+ {
+  margin: 50px 0px 50px 150px;
+}
+.follow{
+  margin: 50px 0px 50px 100px;
 }
