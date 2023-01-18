@@ -1,22 +1,34 @@
 body {
     margin: 0;
   }
-  
   header {
-    background-color: rgb(240, 235, 245);
     display: flex;
     justify-content: space-between;
   }
   
   /*logo style*/
   .logo {
-    margin: 10px 10px 10px 10px;
-    width: 200px;
+    margin: 10px 10px 0px 50px;
+    width: 300px;
+  }
+  
+  .header-text h1 {
+    font-size: 400%;
+    margin: 20px 10px 0px 10px;
+  }
+  
+  .header-text h3 {
+    font-size: 200%;
+  }
+  .header-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   
   /* Navigation style */
   nav {
-    margin: 20px;
+    margin: 35px 20px 20px 20px;
   }
   .nav-list {
     display: flex;
@@ -25,80 +37,39 @@ body {
   }
   
   .nav-links {
-    color: #1f1d1d;
+    font-size: 150%;
+    font-weight: 500;
+    color: rgb(71, 41, 97);
+    font-style: italic;
   }
   
   .nav-list :hover {
     color: #c05326;
   }
+    
   
-  footer {
-    background-color: rgb(240, 235, 245);
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-  }
-  .contact,
-.follow {
-  margin: 10px;
-}
-.images_socialMedia {
-    width: 60px;
-    height: 50px;
-  }
   
-
-
-
-
-
-
   form{
     display: grid;
     grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr ; 
-    background-color:rgb(210, 193, 226); 
+    background-color: rgb(232, 228, 236);
+    color: rgb(71, 41, 97);
+    font-style:italic;
+    font-weight:550;
  }
 
  /* containers style*/
- .name-container {                 
+ .name-container, .email-container, .phone-container, .address-container, .contact-container, .nannyType-container, .dateTime-container, .startDate-container, .request-container {                 
      
      margin:  10px;
      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
      border-radius: 10px;
      border: none;
-     background-color:rgb(225, 210, 240)
+     background-color:rgb(220, 214, 224)
  }
- .email-container {                 
-     
-     margin:  10px;
-     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-     border-radius: 10px;
-     border: none;
-     background-color:rgb(225, 210, 240)
- }
- .contact-container {                 
-     
-     margin: 10px;
-     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-     border-radius: 10px;
-     border: none;
-     background-color:rgb(225, 210, 240)
- }
- .size-container {                 
-     
-     margin:  10px;
-     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-     border-radius: 10px;
-     border: none;
-     background-color:rgb(225, 210, 240)
- }
- .delivery-container {                 
-     
-     margin:  10px 10px 30px 10px;
-     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-     border-radius: 10px;
-     border: none;
-     background-color:rgb(225, 210, 240)
- }
+ 
+ 
+ 
  /*inputs style */
  input[type="text"],
  input[type="email"], 
@@ -110,10 +81,9 @@ body {
  }
  /* button style*/
  .submit-container button{
-     padding: 1rem 2rem;
+     padding: 1rem 4rem;
      border: none;
-     background-color:rgb(226, 87, 203);
-             
+     background-color: #3f083f;             
      border-radius: 10px;
      color: #fff;        
      font-family: 'Poor Story';
@@ -122,8 +92,8 @@ body {
  }
   form {
     width: 100%;
-    max-width: 700px;    
-    margin: auto;
+    max-width: 750px;    
+    
     text-align: center;
     font-size: larger;
     font-style: oblique;
@@ -133,16 +103,54 @@ body {
  main {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: rgb(243, 240, 247);
+
  }
- p{
-    font-size: large;
-    text-align: justify;
-    margin: 50px;
-    margin-left: 0px;
-    font-style: italic;
- }
- h1,h3 ,nav,footer{
-    color: rgb(71, 41, 97);
-    font-style: italic;
- }
+ .text{
+  margin: 60px 190px 60px 0px;
+  text-align: center;
+}
+.image img{
+  width: 750px;
+  height:1240px ;
+
+}
+
+ p {
+  font-size: large;
+  text-align: justify;
+  font-style: italic;
+}
+
+h1,h2,
+h3{
+  color: rgb(71, 41, 97);
+  font-style: italic;
+}
+option{
+  color: rgb(71, 41, 97);
+  font-style: italic;
+  font-size: medium;
+  font-weight: 550;
+}
+
+
+footer {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.images_socialMedia {
+  width: 60px;
+  height: 60px;
+  margin: 0px;
+  
+}
+.contact
+ {
+  margin: 50px 0px 50px 150px;
+}
+.follow{
+  margin: 50px 0px 50px 100px;
+}
+
   
